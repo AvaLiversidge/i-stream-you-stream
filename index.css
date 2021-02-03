@@ -1,0 +1,27 @@
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.polls {
+  display: inline-block;
+  margin: auto;
+}
+
+.poll {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  border: 0;
+  margin: auto;
+}
