@@ -4,7 +4,7 @@
 "use strict";
 
 const embeds = document.getElementsByClassName("pollly-embed");
-const pollInfo = document.getElementsByClassName("poll-info");
+const pollInfo = document.getElementsByClassName("poll-info") || [null, null];
 
 const upperNav = document.getElementsByClassName("mobile-tabs")[0];
 const nav = document.getElementsByClassName("navigation")[0];
